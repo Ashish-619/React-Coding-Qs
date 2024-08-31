@@ -1,0 +1,31 @@
+Here are the top 10 coding questions focused on practical coding tasks often asked in React interviews:
+
+### 1. **Create a To-Do List Application**
+   - **Task:** Implement a simple to-do list where users can add, delete, and mark tasks as complete. Use `useState` for state management.
+
+### 2. **Implement a Counter with Increment/Decrement**
+   - **Task:** Build a counter component that increments or decrements by 1 when buttons are clicked. Manage the counter's state using `useState`.
+
+### 3. **Build a Search Filter Component**
+   - **Task:** Create a component that filters a list of items based on user input. Use `useState` to manage the filter query and display the filtered list.
+
+### 4. **Create a Modal/Dialog Component**
+   - **Task:** Implement a modal that opens when a button is clicked and closes when a close button inside the modal is clicked. Use `useState` to control the visibility of the modal.
+
+### 5. **Form Handling with Validation**
+   - **Task:** Create a form with fields for name, email, and password. Add basic validation (e.g., required fields, email format) and display error messages accordingly.
+
+### 6. **Fetch Data from an API and Display It**
+   - **Task:** Use `fetch` or `axios` to get data from a public API (e.g., JSONPlaceholder) and display it in a list. Handle loading and error states.
+
+### 7. **Create a Dynamic Dropdown List**
+   - **Task:** Implement a dropdown list where the options are fetched from an API. Ensure the dropdown updates when the API data changes.
+
+### 8. **Implement a Custom Hook**
+   - **Task:** Create a custom hook that fetches data from an API and manages loading and error states. Use this hook in a functional component.
+
+### 9. **Build a Responsive Navigation Bar**
+   - **Task:** Create a responsive navigation bar that collapses into a hamburger menu on smaller screens. Use CSS or a library like Material-UI for styling.
+
+### 10. **Implement a Pagination Component**
+   - **Task:** Create a component that displays a list of items with pagination controls. Ensure the component handles the pagination logic and displays the correct set of items per page.
