@@ -45,7 +45,7 @@ function Todo() {
     return (
         <>
             <main>
-                <h1>Todo App</h1>
+                <h1 className='text-green-500'>Todo App</h1>
                 <input type="text" className='
                 task' placeholder='Add Task' value={newTask} onChange={(e) => setNewTask(e.target.value)} />
                 <button className='add-task' onClick={addTask}>Add Task</button>

@@ -16,8 +16,8 @@ function Counter() {
     }
 
     return (
-        <div className='flex justify-center items-center flex-col border border-r-amber-200 p-5'>
-            <h1 className='text-green-400'>Counter App</h1>
+        <div className='flex justify-center items-center flex-col border p-5'>
+            <h1 className='text-green-500'>Counter App</h1>
             <h2 className='p-3 text-xl bg-slate-950 rounded-full m-5'>{count}</h2>
             <div className='flex justify-between gap-3'>
                 <button onClick={() => add()} className='hover:bg-green-400 hover:text-slate-950'>Add</button>

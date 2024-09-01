@@ -31,7 +31,7 @@ const DynamicDropDown = () => {
 
     return (
         <div className='flex flex-col justify-center items-center p-5 border'>
-            <h1 className='text-green-500 mb-5'>DynamicDropDown</h1>
+            <h1 className='text-green-500 mb-5'>Dynamic Drop Down</h1>
             {loading && <p>Loading...</p>}
             {error && <p>Error: {error}</p>}
 

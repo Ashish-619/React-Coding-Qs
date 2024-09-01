@@ -39,7 +39,7 @@ const FetchData = () => {
     }
 
     return (
-        <div className='flex justify-center items-center flex-col border border-r-amber-200 p-5'>
+        <div className='flex justify-center items-center flex-col border p-5 mt-6'>
             <h1 className='text-green-500'>Fetch Data & Pagination</h1>
 
             {loading && <div>Loading...</div>}
