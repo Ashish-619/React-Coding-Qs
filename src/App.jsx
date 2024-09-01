@@ -8,6 +8,7 @@ import FormHandling from './components/FormHandling'
 import FetchData from './components/FetchData'
 import DynamicDropDown from './components/DynamicDropDown'
 import useCustomHook from './components/CustomHook'
+import ResponsiveNavBar from './components/ResponsiveNavBar'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,13 +17,13 @@ function App() {
 
   return (
     <div className='flex flex-col gap-10 items-center justify-center'>
-      {loading && (<p>Loading...</p>)}
+      {/* {loading && (<p>Loading...</p>)}
       {error && (<p>Error:{error}</p>)}
       {data.map((item) => (
         <li key={item.id}>
           {item.title}
         </li>
-      ))}
+      ))} */}
       <Todo />
       <Counter />
       <SearchFilter />
@@ -30,6 +31,7 @@ function App() {
       <FormHandling />
       <FetchData />
       <DynamicDropDown />
+      <ResponsiveNavBar />
     </div>
   )
 }
