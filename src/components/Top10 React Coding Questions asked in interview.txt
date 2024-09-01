@@ -15,7 +15,7 @@ Here are the top 10 coding questions focused on practical coding tasks often ask
 ### 5. **Form Handling with Validation**
    - **Task:** Create a form with fields for name, email, and password. Add basic validation (e.g., required fields, email format) and display error messages accordingly.
 
-### 6. **Fetch Data from an API and Display It**
+### 6,10. **Fetch Data from an API and Display It**
    - **Task:** Use `fetch` or `axios` to get data from a public API (e.g., JSONPlaceholder) and display it in a list. Handle loading and error states.
 
 ### 7. **Create a Dynamic Dropdown List**
