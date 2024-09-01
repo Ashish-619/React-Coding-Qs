@@ -2,8 +2,6 @@ import React from 'react'
 
 const FormHandling = () => {
 
-
-
   return (
     <div>
       <form className='flex p-5 flex-col justify-center items-center border '>
